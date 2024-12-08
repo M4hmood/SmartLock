@@ -1,0 +1,7 @@
+card 1:
+	HEX: 73 5F 3C AC
+	DEC: 115 95 60 172
+
+card 2:
+	HEX: 63 64 A0 AB
+	DEC: 99 100 160 171

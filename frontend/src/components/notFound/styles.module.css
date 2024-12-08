@@ -1,0 +1,36 @@
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../../public/cyberpunk_landscape.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.NotFound_container {
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 60%);
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+        0px 3px 4px 0px rgb(0 0 0 / 14%),
+        0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+.NotFound_container h1 {
+    font-size: 50px;
+    color: blanchedalmond;
+}
+
+.NotFound_container p {
+    font-size: 20px;
+    color: azure;
+}
