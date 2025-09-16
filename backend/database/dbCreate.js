@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb');
 
-const client = new MongoClient(prcess.env.MNOGO_URI);
+const client = new MongoClient(process.env.MONGO_URI);
 
 async function createDatabase() {
     try {
