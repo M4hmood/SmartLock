@@ -1,8 +1,6 @@
 const { MongoClient } = require('mongodb');
 
-URI = "mongodb+srv://m4hmoud:password03@cluster0.ichcbct.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-
-const client = new MongoClient(URI);
+const client = new MongoClient(prcess.env.MNOGO_URI);
 
 async function createDatabase() {
     try {
